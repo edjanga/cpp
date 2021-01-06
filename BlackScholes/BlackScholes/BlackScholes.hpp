@@ -20,12 +20,14 @@ class BlackScholes
     public:
         BlackScholes(float vol,float mat,int steps,int sim,float S0,float rf);
         ~BlackScholes();
+        // Setters
         void setVol(float a);
         void setMat(float b);
         void setSteps(int c);
         void setSim(int d);
         void setS0(float e);
         void setRF(float f);
+        // Getters
         float getVol();
         float getMat();
         int getSteps();
